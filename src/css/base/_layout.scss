@@ -1,0 +1,41 @@
+// -----------------------------------------------------------------------------
+//! GENERAL
+// -----------------------------------------------------------------------------
+
+html {
+	height: 100%;
+	background:#fff;
+}
+
+body {
+	font-family: 'Open Sans', Arial, Helvetica, Sans-serif;
+	margin:0;
+	padding:0;
+	background:#f7f7f7;
+	overflow: hidden;
+}
+
+
+.stripe {
+	width:100%;
+	background:#E8E8E8;
+	padding:64px 32px; 
+	position: relative;
+	height:324px;
+}
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	width:600px;
+	margin:0 auto;
+	background:#fff;
+	border-radius: 10px;
+}
+
+.person {
+	width:196px;
+	height:196px;
+	position: relative;
+	overflow: hidden;
+}

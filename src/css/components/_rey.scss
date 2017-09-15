@@ -1,0 +1,195 @@
+/* Colors */
+
+$color-skin-rey: #F0BEAF;
+$color-hair-rey: #363435; 
+
+#rey {
+		
+	.body {
+		position: absolute;
+		width:100px;
+		height:150px;
+		background:transparent;
+		top:130px;
+		left:50%;
+		transform: translateX(-50%);
+		border-radius: 40px;
+		z-index: 3;
+		overflow: hidden;
+	}
+	
+	.fold-left {
+		position: absolute;
+		top:0px;
+		left:-30px;
+		width:100%;
+		height:100%;
+		background:#BDB5B4;
+		transform: rotate(-30deg);
+	}
+	
+	.fold-right {
+		position: absolute;
+		top:0px;
+		right:-30px;
+		width:100%;
+		height:100%;
+		background:#b0a8a7; 
+		transform: rotate(30deg);
+	}
+	
+	.face {
+		position: absolute;
+		width:80px;
+		height:80px;
+		background:$color-skin-rey;
+		border-radius:50%;
+		top:50px;
+		left:50%;
+		transform: translateX(-50%);
+		z-index: 3;
+	}
+	
+	.hair {
+		position: absolute;
+		left:50%;
+		transform: translateX(-50%);
+		top:40px;
+		width:80px;
+		height:50px;
+		background:$color-hair-rey;
+		border-radius: 50% 50% 0 0;
+	}
+	.hair:before {
+		content:"";
+		position: absolute;
+		width:30px;
+		height:30px;
+		border-radius: 50%;
+		left:50%;
+		top:-10px;
+		background:$color-hair-rey;
+		transform: translateX(-50%);
+	}
+	
+	.bangs {
+		position: absolute;
+		left:50%;
+		top:40px;
+		width:60px;
+		height:20px;
+		background:$color-hair-rey;
+		z-index: 4;
+		transform: translateX(-50%);
+		border-radius: 50% 50% 50% 50%;
+	}
+	
+	.hair-left {
+		position: absolute;
+		background: $color-hair-rey;
+		height:30px;
+		width:6px;
+		top:66px;
+		left:56px;
+		z-index: 6;
+		border-radius: 0% 0% 5px 5px;
+		transform: rotate(8deg);
+	}
+	
+	.hair-right {
+		position: absolute;
+		background: $color-hair-rey;
+		height:30px;
+		width:6px;
+		top:66px;
+		right:56px;
+		z-index: 6;
+		border-radius: 0% 0% 5px 5px;
+		transform: rotate(-8deg);
+		
+	}
+	
+	.neck {
+		position: absolute;
+		z-index: 2;
+		width:30px;
+		height:60px;
+		border-radius: 12px;
+		left:50%;
+		transform: translateX(-50%);
+		top:110px;
+		background:darken($color-skin-rey, 10%);
+	}
+	
+	.eyes {
+		position: absolute;
+		top:34px;
+		width:10px;
+		height:10px;
+		background: #424b54;
+		border-radius: 50%;
+		left:25%;
+		transform: translateX(-50%);
+	}
+	
+	.eyes:after {
+		content:"";
+		position: absolute;
+		width:10px;
+		height:10px;
+		background: #424b54;
+		top:0;
+		border-radius: 50%;
+		right:-40px;
+	}
+	
+	.nose {
+		position: absolute;
+		left:50%;
+		transform: translateX(-50%);
+		width:8px;
+		height:14px;
+		background:#DB9B99;
+		top:36px;
+		border-radius: 4px;
+	}
+	
+	.mouth {
+		position: absolute;
+		background: #424b54;
+		width:30px;
+		height:8px;
+		border-radius: 0 0 100px 100px;
+		top:60px;
+		left:50%;
+		transform: translateX(-50%);
+	}
+	
+	.lightsaber {
+		position: absolute;
+		bottom:-30px;
+		left:30%;
+		width:10px;
+		height:0;
+		background: #4FC3F7;
+		z-index: 10;
+		border-radius: 4px 4px 0 0;
+		transform: rotate(30deg);
+		animation-name: saber;
+		animation-duration: 6s; 
+		animation-timing-function: linear; 
+		animation-delay: 1s;
+		animation-direction: normal;
+		animation-iteration-count: infinite;
+		transform-origin: left bottom;
+	}
+	
+	
+	@keyframes saber {
+		0% {height: 0;}
+		5% {height: 160px;}
+		55% {height: 160px;}
+		60% {height: 0;}
+		100% {height:0;}
+	}
+}
