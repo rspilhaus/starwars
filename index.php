@@ -30,8 +30,7 @@
 				<div class="nose"></div>
 				<div class="mouth"></div>
 			</div>
-			<div class="hair-left"></div>
-			<div class="hair-right"></div>
+			
 			<div class="neck"></div>
 			<div class="body">
 				<div class="jacket jacket-left"></div>
@@ -83,6 +82,49 @@
 				<div class="tube"></div>
 			</div>
 		</div>
+	</div>
+</section>
+
+
+<section class="stripe">
+	<div class="container">
+		
+		<div class="person" id="hux">
+			<div class="ear left"></div>
+			<div class="ear right"></div>
+			<div class="hair"></div>
+			<div class="face">
+				<div class="hair-under"></div>
+				<div class="eyes"></div>
+				<div class="nose"></div>
+				<div class="mouth"></div>
+			</div>
+			<div class="pouf"></div>
+			<div class="neck"></div>
+			<div class="body"><div class="patch"></div></div>
+		</div>
+		
+		<div class="person" id="kylo">
+			<div class="cloak"></div>
+			<div class="body"></div>
+			<div class="cloak-front"></div>
+			<div class="hood">
+				<div class="hood-bottom"></div>
+			</div>
+			<div class="mask">
+				<div class="mask-breather">
+					<div class="mask-breather-bottom"></div>
+				</div>
+				<div class="mask-1"></div>
+				<div class="mask-2"></div>
+				<div class="eyes"></div>
+			</div>			
+			<div class="lightsaber"></div>
+			<div class="hilt"></div>
+		</div>
+		
+		
+		
 	</div>
 </section>
 
